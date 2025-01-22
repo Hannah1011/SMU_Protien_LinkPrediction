@@ -31,24 +31,24 @@ This project focuses on **predicting missing links in Protein-Protein Interactio
 ├── mr.py                        # Data preprocessing and utility functions
 ├── mr_gnn.py                    # GNN model training and evaluation script
 ├── requirements.txt
-
+```
 ---
 
 ## 🚀 **Installation**
 1. Clone thie Repository
-'''
+```
 bash
 git clone https://github.com/Hannah1011/SMU_Protien_LinkPrediction.git
-'''
+```
 
 2. Navigate to the project directory
 
 3. Install Dependencies
-'''
+```
 bash
 pip install -r requirements.txt
-'''
+```
 
 ---
 
-##
+## 🛠️ Usage
