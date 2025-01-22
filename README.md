@@ -1,2 +1,54 @@
-# SMU_Protien_LinkPrediction
-RNA 치료제 개발 가능성을 탐색하기 위해 단백질 간 상호작용(PPI) 그래프에서 누락된 연결 예측하는 프로젝트
+# 🧬 Protein-Protein Interaction (PPI) Link Prediction Project
+
+## 🔍 **Overview**
+This project focuses on **predicting missing links in Protein-Protein Interaction (PPI) graphs** to explore potential applications in RNA therapeutic development. PPIs are fundamental to biological processes, as proteins interact to perform various functions. 
+
+### 🧬 **Key Biological Examples**
+- **Enzyme Reactions**: Enzymes interact with specific proteins to catalyze or inhibit reactions.
+- **Signal Transduction**: Protein interactions enable intracellular communication.
+
+### 🎯 **Project Goals**
+- 🧩 **Uncover Missing Links**: Predict unknown interactions in PPI networks.
+- 💡 **Understand Protein Functions**: Gain insights into how proteins operate within networks.
+- 🧪 **Enable RNA Therapeutics Development**: Explore new therapeutic targets.
+
+---
+
+## ⚙️ **Features**
+- **Data Preprocessing**: Tools to clean and structure PPI datasets.
+- **AutoEncoder Modeling**: Use AutoEncoders to predict missing interactions.
+- **Graph Neural Networks (GNNs)**: Exploit graph structures for link prediction.
+- **Result Analysis**: Evaluate models and visualize predictions.
+
+---
+
+## 📂 **Folder Structure**
+```plaintext
+/project-root
+├── Preprocessing.ipynb            # Data preprocessing notebook
+├── link_prediction-AE-Chen final.ipynb  # AutoEncoder-based link prediction
+├── link_prediction_gnn_final.ipynb     # GNN-based link prediction
+├── mr.py                        # Data preprocessing and utility functions
+├── mr_gnn.py                    # GNN model training and evaluation script
+├── requirements.txt
+
+---
+
+## 🚀 **Installation**
+1. Clone thie Repository
+'''
+bash
+git clone https://github.com/Hannah1011/SMU_Protien_LinkPrediction.git
+'''
+
+2. Navigate to the project directory
+
+3. Install Dependencies
+'''
+bash
+pip install -r requirements.txt
+'''
+
+---
+
+##
