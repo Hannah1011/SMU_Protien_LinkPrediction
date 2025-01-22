@@ -37,7 +37,6 @@ This project focuses on **predicting missing links in Protein-Protein Interactio
 ## 🚀 **Installation**
 1. Clone thie Repository
 ```
-bash
 git clone https://github.com/Hannah1011/SMU_Protien_LinkPrediction.git
 ```
 
@@ -45,10 +44,25 @@ git clone https://github.com/Hannah1011/SMU_Protien_LinkPrediction.git
 
 3. Install Dependencies
 ```
-bash
 pip install -r requirements.txt
 ```
 
 ---
 
 ## 🛠️ Usage
+1. Data Preprocessing
+```
+python mr.py
+```
+2. Train AutoEncoder Model
+```
+jupyter notebook link_prediction-AE-Chen\ final.ipynb
+```
+3. Train GNN Model (Run the GNN-based model)
+```
+jupyter notebook link_prediction_gnn_final.ipynb
+```
+4. Result Analysis (Visualize and evaluate predictions)
+```
+python mr_gnn.py
+```
